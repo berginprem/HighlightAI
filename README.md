@@ -1,4 +1,4 @@
-# `Timeless AI`
+# `Stealth AI`
 An NLP tool for remove those hassles of finding the most relevant content in the videos and documents.
 ## Inspiration
 Everyday people watch one billion hours of videos on YouTube and generate billions of views (YouTube, 2019). Another interesting fact is that searches related to the term “how to” are growing 70 percent year over year, according to searchengineland.com. This means that when users are searching for ways to learn something, they rely on video content. 
@@ -18,13 +18,13 @@ In 2008 a study estimated that it would take 244 hours a year for the typical Am
 ## What it does
 The core of the idea is to remove those hassles of finding that “the” moment in the video to give user quick and most relevant content.​
 
-Keeping this in mind with the help of Expert.ai services we want to provide users with a  seamless learning experience by giving a fully-fledged solution that aims to reduce the time and hassles we faced while watching the long educational videos and provide a timeless solution so as to make your learning efficient.
+Keeping this in mind with the help of Expert.ai services we want to provide users with a  seamless learning experience by giving a fully-fledged solution that aims to reduce the time and hassles we faced while watching the long educational videos and provide a AI solution so as to make your learning efficient.
 
 1. Youtube Video Analyser: We find ourselves skipping through a YouTube timeline trying to find a punchline or a specific part of a tutorial and end up spending a lot of time. To remove this hassle we have created a youtube video analyser, where we can get the key moments, summary, searching through phrases, voice searching by just putting the youtube video link. Also, after the learning, there is an automated smart quiz which can be helpful in the self-check. We can also get the quick sentiments of the video from its latest comments which can be helpful beforehand to know whether the video suits our current sentiments.
 
 2. Zoom Online Lectures Analyser: It condenses lecture material without losing comprehension to summarize these Lectures using the lecture transcripts. Here also we can get the key moments, summary, phrases searching, voice searching and self-check smart quiz.
 
-3. Legal Document Analyser: With the use of timeless ai you can upload a privacy policy in text format and the API will summarize the text for you. For example, we will upload a google privacy policy in text format, and based on the score the important sentences are highlighted in red making it easier to understand before accepting the policies.
+3. Legal Document Analyser: With the use of Stealth ai you can upload a privacy policy in text format and the API will summarize the text for you. For example, we will upload a google privacy policy in text format, and based on the score the important sentences are highlighted in red making it easier to understand before accepting the policies.
 
 ## How we built it
 1. **Youtube Video Analyser:** For the youtube analyzer, we first generate the summary of the available youtube transcripts/closed captions using nltk summarizer, which is done on the azure function which we have developed. This azure function returns the summary and transcript of the youtube video to the web app. With the help of this summary of the video, we generate the keynotes from the entities API, highlight key main sentences in the summary, showing the main topic using the relevant API. We also do the sentimental analysis of the youtube latest comments using the sentiment API. For the quiz generation, we use the disambiguation API which gives the sentences with the tokens which further uses the azure function from where we get similar words for the options of the question.
