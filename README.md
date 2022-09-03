@@ -1,6 +1,6 @@
 # `Stealth AI`
 This is me and my team stealth
-An NLP tool for remove those hassles of finding the most relevant content in the videos and documents.
+###An NLP tool for remove those hassles of finding the most relevant content in the videos and documents.
 ## Inspiration
 Everyday people watch one billion hours of videos on YouTube and generate billions of views (YouTube, 2019). Another interesting fact is that searches related to the term “how to” are growing 70 percent year over year, according to searchengineland.com. This means that when users are searching for ways to learn something, they rely on video content. 
 In the limits of COVID-19, the whole world realizes the power of online education and the impact it can have on millions of people. 
