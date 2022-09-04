@@ -6,7 +6,7 @@ Everyday people watch one billion hours of videos on YouTube and generate billio
 In the limits of COVID-19, the whole world realizes the power of online education and the impact it can have on millions of people. 
 
 ## Problem
-Many times we find ourselves skipping through a YouTube timeline trying to find a punchline or a specific part of a tutorial. It can be time-consuming and mind-numbing to try and find a specific moment in a YouTube video. (And this doesn’t end after one or two vids)​
+Many times we find ourselves skipping through a YouTube timeline trying to find a punchline or a specific part of a tutorial. It can be time-consuming and mind-numbing to try and find a specific moment in a YouTube video. (And this doesn’t end after one or two videos)​
 
 Although plenty of video solutions available online and usage is extravagant, often these lectures can be too long and monotonous. People zone out frequently and lose track of what is going on and end up rewinding the video and watching again and again.
 ​
